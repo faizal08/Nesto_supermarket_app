@@ -11,14 +11,19 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Customer {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
-    private String address;
+
+    @Column(unique = true, nullable = false)
+    private String email; // Replaced 'address' with 'email'
 
     @Column(unique = true)
     private String mobile;
-    private int age;
+
+    // Note: I removed 'age' to stay consistent with your 'customer-list.html'
+    // and 'customer-form.html' which focus on contact details.
 }
