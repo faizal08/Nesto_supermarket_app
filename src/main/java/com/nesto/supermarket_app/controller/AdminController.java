@@ -36,8 +36,5 @@ public class AdminController {
         return "login";
     }
 
-    @GetMapping("/dashboard")
-    public String dashboard() {
-        return "dashboard";
-    }
+
 }
