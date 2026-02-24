@@ -98,9 +98,3 @@ For any inquiries or feedback, feel free to reach out:
 
 - **Email:** [reachfaizal08@gmail.com](reachfaizal08@gmail.com)
 - **GitHub:** [faizal08](https://github.com/faizal08)
-
-
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/faizal08/supermarket_app.git](https://github.com/faizal08/supermarket_app.git)
